@@ -1,4 +1,4 @@
 # TestCube
 
 ## Swagger for Rest API documentation
-[Visit](http://localhost:8080/swagger-ui/index.html)
+When you run the SpringBoot application you can visit [SwaggerUI](http://localhost:8080/swagger-ui/index.html) for my Rest API documentation.
