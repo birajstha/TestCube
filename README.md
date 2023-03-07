@@ -1,5 +1,5 @@
 # Project Name : TestCube
-This springboot application calculates the side length of a cube given its volume. The cube object is cached in memory for 5 minutes.
+This springboot application is a Maven based project that calculates the side length of a cube given its volume. The cube object is cached in memory for 5 minutes.
 The REST endpoints are exposed and are documented using Swagger as below.
 
 ## Swagger for Rest API documentation
