@@ -1,0 +1,16 @@
+Coding Java Micro Service Assignment:
+This test will not only test your Java skills but also your problem-solving and code organization ability.
+You will write a Spring Boot application microservice that will calculate the size of a cube based on the volume.
+The cube will return equal dimensions in length of x, y and z including a UUID and the date and time it was generated.
+The cube object will be cached in memory for no more than 5 minutes.
+You will then have another REST endpoint with the ability to save that cube object generated to a SQL or NoSQL database of your choice.
+To retrieve created cubes you may look up the cube by the following:
+    Query by UUID
+    Query by volume
+Query by matching volume of a custom dimension. Example: /dimension/4-4-4 or /dimension/2-2-16 would return a cube with the volume of 64 if it existed.
+Write at least one unit test for the different levels of code within your sample project.
+Also note other unit tests that could be created and why they would be useful.
+You may use any additional Java libraries you wish. Gradle or Maven configurations will both be accepted.
+Please place the code in a public git repository and give the URL when you have finished the exercise.
+Someone should be able to clone, build and run your project. Also include any useful instructions inside README.md
+
